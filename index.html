@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quadro de Desenho</title>
     <link rel="stylesheet" href="/assets/css/template.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Desenhando com Canvas!</h1>
@@ -16,23 +19,20 @@
     <!-- Controles das cores -->
     <section>
         <div class="colorArea">
-            <div data-color="black" style="background-color: black" class="color active"></div>
-            <div data-color="blue" style="background-color: blue" class="color"></div>
-            <div data-color="red" style="background-color: red" class="color"></div>
-            <div data-color="green" style="background-color: green" class="color"></div>
-            <div data-color="yellow" style="background-color: yellow" class="color"></div>
-            <div data-color="gray" style="background-color: gray" class="color"></div>
+            <div data-color="black" style="background-color: rgb(36, 33, 33)" class="color active"></div>
+            <div data-color="blue" style="background-color: rgb(146, 146, 238)" class="color"></div>
+            <div data-color="red" style="background-color: rgb(233, 150, 150)" class="color"></div>
+            <div data-color="green" style="background-color: rgb(161, 241, 161)" class="color"></div>
+            <div data-color="yellow" style="background-color: rgb(217, 122, 247)" class="color"></div>
+            <div data-color="gray" style="background-color: rgb(220, 238, 155)" class="color"></div>
         </div>
     </section>
     
     <!-- Botão para limpar quadro -->
     <main>
-        <button class="clear">Limpar Quadro</button>
-    
-        <footer>Criado por Jesuan Developer </footer>
-            
+        <button class="clear">Limpar Quadro</button>                  
     </main>
-    
+     <footer class="dev">Criado por Jesuan Developer ! </footer>
 
     <script src="assets/js/script.js"></script>
 </body>
