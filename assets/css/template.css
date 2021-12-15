@@ -7,7 +7,7 @@
     ---Gray700:#2D3748;
     ---Orange50:#FFFAF0;
     ---Orange100:#F6AD55;
-    ---Orange200:#FBD38D;
+    ---Orange200:#201d17;
     ---Orange300:#F6AD55;
     ---Cyan400:#0BC5EA;
     ---Purple400:#9F7AEA;
@@ -32,7 +32,7 @@ body {
     flex-direction:column;
     min-height: 100vh;
     background-color: var(---Gray700);
-    font-family: Roboto, sans-serif;
+    font-family:Roboto, sans-serif;
    
 }
 
@@ -55,15 +55,23 @@ h1 {
 .colorArea {
  width: 800px;
  display:flex;
+ cursor:pointer;
  
 
  
 }
 
 .color {
+    display: flex;
     flex:1;
     height:30px;
     border-radius:50px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(---Orange50);
+   
     
 }
 
@@ -81,16 +89,18 @@ h1 {
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
-    background-color: var(---Gray300);
-    color: var(---Gray700);
+    background-color: var(---Red500);
+    color: var(---Gray50);
     border: 1px solid var(---Orange50);
     transition: 0,01;
     padding: 5px;
+
     
 }
 .clear:hover {
-    background-color: var(---Gray50);
-    border: 1px solid var(---Orange100);
+    background-color: var(---Orange200);
+    color:var(---Gray700);
+    border: 1px solid var(---Orange50);
 }
 
 footer {
